@@ -26,7 +26,7 @@ class model_input(BaseModel):
     Age : int
 
 #loading the saved model
-diabetes_model = pickle.load(open(r"D:\ml\ml_model_as_Api\python code\trained_model.sav",'rb'))
+diabetes_model = pickle.load(open("trained_model.sav",'rb'))
 
 
 #creating api
